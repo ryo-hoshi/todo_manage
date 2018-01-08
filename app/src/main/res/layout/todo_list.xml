@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="todo_type_num"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="invisible"
+            android:id="@+id/textView_list_todoTypeIdx" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="todo"
+            android:id="@+id/textView_list_todoType" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="todo_num"
+            android:id="@+id/textView_list_todoNum" />
+    </LinearLayout>
+
+</LinearLayout>

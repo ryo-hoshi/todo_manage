@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="main">main</string>
+    <string name="limit_register">limit_register</string>
+    <string name="schedule">schedule</string>
+    <string name="todo_register">todo_register</string>
+
+    <string name="time">yyyy/mm/dd hh:mm</string>
+
+    <string name="todo_register_note">作業内容</string>
+    <string name="todo_register_button">登録</string>
+    <string name="todo_register_limit">期限</string>
+</resources>
